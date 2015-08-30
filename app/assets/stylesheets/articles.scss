@@ -1,0 +1,60 @@
+/*
+ * Fixed top
+ */
+
+$border: 1px solid;
+
+div.top {
+  font-size: 30px;
+  text-align: center;
+  padding: 15px 0px;
+  margin: 20px 0px;
+  border: $border;
+}
+
+div.side_menu {
+  float: left;
+  width : 180px;
+  height: 100%;
+  margin: 20px 0px;
+  border: $border;
+  border-top: none;
+  a {
+    border-top: $border;
+    padding: 30px;
+    display: block;
+    color : black;
+    text-align: center;
+    text-decoration: none;
+  }
+  a hover {
+    color: gray;
+    text-decoration: none;
+  }
+}
+
+div.main {
+  float: left;
+}
+
+/*
+ * Create Article Page
+ */
+
+div.create_top {
+  margin: 20px 0px 0px 20px;
+  font-size: 30px;
+  padding: 0px 400px 0px 0px;
+  border-bottom: 1px solid;
+}
+
+.left_margin{
+  margin: 20px 0px 0px 50px;
+}
+
+.title_area {
+  
+
+
+}
+

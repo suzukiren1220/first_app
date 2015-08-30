@@ -1,0 +1,23 @@
+!!!
+%html
+%head
+  %title Article app
+  = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+  = javascript_include_tag 'application', 'data-turbolinks-track' => true
+
+%body
+  %div.top ARTICLE 
+  
+  %div.side_menu
+    %tr
+      %th
+        %a{:href =>"http://www.yahoo.co.jp"} Create Article
+    %tr
+      %th
+        %a{:href =>"http://www.yahoo.co.jp"} Edit Article
+  %div.main
+    =yield
+
+
+
+
