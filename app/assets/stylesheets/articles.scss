@@ -5,30 +5,30 @@
 $border: 1px solid;
 
 div.top {
-  font-size: 30px;
+  font-size : 30px;
   text-align: center;
-  padding: 15px 0px;
-  margin: 20px 0px;
-  border: $border;
+  padding   : 15px 0px;
+  margin    : 20px 0px;
+  border    : $border;
 }
 
 div.side_menu {
-  float: left;
-  width : 180px;
-  height: 100%;
-  margin: 20px 0px;
-  border: $border;
+  float     : left;
+  width     : 180px;
+  height    : 100%;
+  margin    : 20px 0px;
+  border    : $border;
   border-top: none;
   a {
-    border-top: $border;
-    padding: 30px;
-    display: block;
-    color : black;
-    text-align: center;
+    border-top     : $border;
+    padding        : 30px;
+    display        : block;
+    color          : black;
+    text-align     : center;
     text-decoration: none;
   }
   a hover {
-    color: gray;
+    color          : gray;
     text-decoration: none;
   }
 }
@@ -41,10 +41,10 @@ div.main {
  * Create Article Page
  */
 
-div.create_top {
-  margin: 20px 0px 0px 20px;
-  font-size: 30px;
-  padding: 0px 400px 0px 0px;
+.create_top {
+  margin       : 20px 0px 0px 20px;
+  font-size    : 30px;
+  padding-right: 400px;
   border-bottom: 1px solid;
 }
 
@@ -52,9 +52,22 @@ div.create_top {
   margin: 20px 0px 0px 50px;
 }
 
-.title_area {
-  
-
-
+.form_name {
 }
 
+.title_form {
+  margin-left: 20px;
+  font-size  : 15px;
+  padding    : 10px;
+  border     : 1px solid;
+  width      : 400px;
+}
+
+.text_form {
+  font-size: 13px;
+  margin: 20px 0px 0px 20px;
+  padding: 10px;
+  width : 400px;
+  height: 500px;
+  
+}
