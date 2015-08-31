@@ -1,5 +1,16 @@
 %div.create_top Create Article
-.left_margin TITLE AREA
-%input.title_area.left_margin{ :type => "text", :name => "title" }
-
-
+%table.left_margin
+  %tr
+    %th.form_name TITLE AREA
+    %th
+      %input.title_form{ :type => "text", :name => "title" }
+  %tr
+    %th.form_name TEXT AREA
+    %th{ :rowspan => 3 }
+      %textarea.text_form{ :type => "text", :name => "text", }
+  %tr
+    %th
+      %button{ :type => "button" } CREATE
+  %tr
+    %th
+      %button{ :type => "button" } CANCEL

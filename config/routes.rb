@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  
+  match ':controller(/:action(/:id))', via:[ :get, :post, :patch]
+	
   root 'articles#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
