@@ -6,4 +6,7 @@ class ArticlesController < ApplicationController
   def edit
   end
 
+  def test
+  end
+
 end
