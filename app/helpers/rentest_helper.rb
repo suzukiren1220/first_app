@@ -1,0 +1,2 @@
+module RentestHelper
+end

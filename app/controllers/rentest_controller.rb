@@ -1,0 +1,2 @@
+class RentestController < ApplicationController
+end
